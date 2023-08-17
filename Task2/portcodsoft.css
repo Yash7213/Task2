@@ -1,0 +1,316 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+    
+
+    #logo img{
+    height: 40px;
+    margin: 11px;
+    border-radius: 10px;
+}
+/*this is navbar part*/
+.navbar
+{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding: 17px;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex; 
+    
+}
+.navbar ul li
+{
+    font-size: 1.5rem;
+
+}
+.navbar ul li a{
+    padding: 3px 19px;
+    margin: 7px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.navbar::before
+{
+    content: "";
+    background-color: rgb(126 119 125);
+   /* position: fixed;*/
+   position: absolute;
+    height: 9%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}
+.navbar li a:hover
+{
+    background-color:white;
+    border-radius: 8px;
+}
+
+#text
+{
+   /* margin: 58px 18px;*/
+   display: flex;
+   flex-direction: column;
+    height: 423px;
+    padding: 3px 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+#text::before 
+{
+    content: "";
+    position: absolute;
+    background-image: url(./photo.jpg);
+    height: 73%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    opacity: 0.5;
+}
+#text h3
+{
+    color: #4d4242;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#text p
+{
+    color: #96029a;
+    font-size: 20px;
+}
+.btn
+{
+    color: black;
+    background-color:white;
+    padding: 7px;
+    margin-top: 23px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.btn:hover
+{
+    color: #e0e7e7;
+    background-color: #473a3a;
+}
+
+#about
+{
+    padding: 60px;
+    text-align: center;
+}
+#about h3
+{
+    padding-top: 60px;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+#about p
+{
+    left: 200px;
+    position: relative;
+    font-size: 16px;
+    height: 676px;
+    padding-top: 17px;
+    width: 66%;
+    text-align: center;
+}
+.navbar
+{
+    text-align: center;
+}
+.navbar a 
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: azure;
+    padding-left: 17px;
+}
+#exper
+{
+    background-color: #5d6868;
+    display: grid;
+    padding-top: 26px;
+    justify-content: center;
+}
+#exper h2
+{
+    font-size: 30px;
+    margin: 7px;
+    padding: 24px;
+    text-decoration: underline;
+    text-align: center;
+}
+.first {
+    border: 2px solid fuchsia;
+    background-color: antiquewhite;
+    padding: 22px;
+    margin: 12px;
+    position: relative;
+    left: 305px;
+    width: 46%;
+    display: inline-block;
+}
+.first h2
+{
+    font-size: 20px;
+    opacity: .5;
+}
+
+
+#edu
+{
+    padding: 66px;;
+}
+#edu h2
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.content
+{
+    border: 2px solid #2b2b26;
+    padding: 18px;
+}
+.content h4
+{
+    color: #262828;
+    padding: 8px;
+    font-size: 26px;
+    opacity: .6;
+}
+.content h5
+{
+    position: relative;
+    font-size: 15px;
+    left: 8px;
+
+}
+.content p
+{
+    width: 60%;
+    font-size: 16px;
+    padding: 32px;
+}
+#touch
+{
+    padding: 127px;
+    height: 332px;
+    background-color: #9a9a;
+}
+.form
+{
+
+    padding-bottom: 21px;
+    left: 656px;
+    position: absolute;
+}
+.form h3
+{
+    font-size: 30px;
+    padding: 16px;
+}
+input
+{
+    padding: 12px 66px;
+    font-size: 16px;
+    margin: 6px;
+    padding-right: 72px;
+    border: 2px solid black;
+}
+textarea
+{
+    padding: 60px 112px;
+    font-size: 16px;
+    margin: 6px;
+    padding-right: 28px;
+    border: 2px solid black;
+}
+.sendbut
+{
+    padding: 19px 53px;
+    margin: 21px 116px;
+    cursor: pointer;
+    background-color: #3f383c;
+    color: #eee6e6;
+    border-radius: 7px;
+    border: 2px solid salmon;
+}
+
+
+
+.links
+{
+    padding-top: 34px;
+    height: -11px;
+    bottom: -2px;
+    position: relative;
+    font-size: 25px;
+    margin: 30px 30px;
+    height: 55px;
+
+
+}
+.links i
+{
+    padding: 20px;
+    bottom: 36px;
+    position: relative;
+    left: 63%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.links i:hover
+{
+    cursor: pointer;
+    
+}
+.fa-facebook-f
+{ 
+    color: black;
+
+}
+.fa-facebook-f:hover
+{
+    color: blue
+}
+
+.fa-instagram
+{
+    color: black;
+}
+.fa-instagram:hover
+{
+    color: red;
+}
+
+.fa-github:hover
+{
+    color: rgb(26, 117, 41);
+}
+.fa-twitter:hover
+{
+ color: blue;
+}
